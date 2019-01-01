@@ -10,7 +10,7 @@ public class TesteLeituraCSV {
 
         Scanner scanner = new Scanner(new File("contas.csv"));
 
-        // running every lines if has next
+        // running every lines if has next line
         while (scanner.hasNext()) {
             String linha = scanner.nextLine();
             System.out.println(linha);
