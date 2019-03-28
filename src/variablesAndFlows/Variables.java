@@ -14,6 +14,9 @@ public class Variables {
 
         idade = (7*5) + 2;
         System.out.println(idade);
+
+        double salario = 1037.00;
+        System.out.println("Meu salario é: " + salario);
     }
 
 }
