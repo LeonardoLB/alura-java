@@ -17,6 +17,19 @@ public class Variables {
 
         double salario = 1037.00;
         System.out.println("Meu salario é: " + salario);
+
+        // unico caracter
+        char letra = 'a';
+        System.out.println(letra);
+
+        char valor = 66;
+        System.out.println(valor);
+
+        valor = (char) (valor + 1);
+        System.out.println(valor);
+
+        String palavra = "Curso que eu estou fazendo para melhorar no java";
+
     }
 
 }
