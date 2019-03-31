@@ -7,4 +7,8 @@ public class Conta {
     protected int numero;
     protected String titular;
 
+    protected void deposita(double valor) {
+        this.saldo += valor;
+    }
+
 }
