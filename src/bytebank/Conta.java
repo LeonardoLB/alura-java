@@ -20,4 +20,14 @@ public class Conta {
         }
     }
 
+    protected boolean tranfere(double valor, Conta conta) {
+        if (saca(valor)) {
+            conta.deposita(valor);
+            return true;
+        }
+        return false;
+
+
+    }
+
 }
