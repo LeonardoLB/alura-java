@@ -10,6 +10,12 @@ public class TestaMetodo {
         contaLeo.deposita(200.0);
         System.out.println(contaLeo.saldo);
 
+        contaLeo.saca(50);
+        System.out.println(contaLeo.saldo);
+
+        System.out.println(contaLeo.saca(200));
+        System.out.println(contaLeo.saldo);
+
     }
 
 }
