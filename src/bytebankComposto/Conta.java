@@ -1,13 +1,11 @@
-package bytebank;
+package bytebankComposto;
 
 public class Conta {
 
     protected double saldo;
     protected int agencia;
     protected int numero;
-    protected String titular;
-    protected String cpf;
-    protected String profissao;
+    protected Cliente titular;
 
     protected void deposita(double valor) {
         this.saldo += valor;
