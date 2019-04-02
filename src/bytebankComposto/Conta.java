@@ -30,4 +30,8 @@ public class Conta {
 
     }
 
+    protected double getSaldo() {
+        return this.saldo;
+    }
+
 }
