@@ -6,12 +6,17 @@ public class Conta {
 	private int agencia;
 	private int numero;
 	private Cliente titular;
+	static int total;
 
 	public Conta(int agencia, int numero) {
+		this.total++;
 		this.agencia = agencia;
 		this.numero = numero;
-
 		System.out.println("Conta: "+this.numero+" Agencia: "+this.agencia);
+	}
+
+	public static int quantidaContas() {
+		return total;
 	}
 
 	public void deposita(double valor) {
