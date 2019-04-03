@@ -2,7 +2,7 @@ package bytebankEncapsulado;
 
 public class TestaMetodo {
 	public static void main(String[] args) {
-		Conta contaDoPaulo = new Conta();
+		Conta contaDoPaulo = new Conta(123,123);
 		contaDoPaulo.deposita(100);
 		contaDoPaulo.deposita(50);
 		System.out.println(contaDoPaulo.getSaldo());
@@ -11,7 +11,7 @@ public class TestaMetodo {
 		System.out.println(contaDoPaulo.getSaldo());
 		System.out.println(conseguiuRetirar);
 
-		Conta contaDaMarcela = new Conta();
+		Conta contaDaMarcela = new Conta(123,123);
 		contaDaMarcela.deposita(1000);
 
 		boolean sucessoTransferencia = contaDaMarcela.transfere(300, contaDoPaulo);
