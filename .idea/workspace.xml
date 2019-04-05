@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633f4bb5-4afe-4863-8c04-70e7c1d9369a" name="Default Changelist" comment="bytebank encapsulated">
+      <change afterPath="$PROJECT_DIR$/src/bytebankHerdado/TesteReferencias.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bytebankHerdado/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bytebankHerdado/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/alura-java/bytebankHerdado/Gerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-java/bytebankHerdado/Gerente.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,18 +20,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Gerente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="378">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="e#130#131#0" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
                 <element signature="e#364#365#0" expanded="true" />
                 <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Funcionario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/TesteReferencias.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -80,9 +103,10 @@
         <option value="$PROJECT_DIR$/src/bytebankHerdado/TesteFuncionario.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdado/Funcionario2.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdado/TesteFuncionario2.java" />
-        <option value="$PROJECT_DIR$/src/bytebankHerdado/Funcionario.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdado/TesteGerente.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdado/Gerente.java" />
+        <option value="$PROJECT_DIR$/src/bytebankHerdado/TesteReferencias.java" />
+        <option value="$PROJECT_DIR$/src/bytebankHerdado/Funcionario.java" />
       </list>
     </option>
   </component>
@@ -122,12 +146,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554301621421" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554332485556" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -156,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteGerente">
+  <component name="RunManager" selected="Application.TesteReferencias">
     <configuration name="TestaContarContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bytebankEncapsulado.TestaContarContas" />
       <module name="alura-java" />
@@ -209,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteSacaNeagivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bytebankEncapsulado.TesteSacaNeagivo" />
+    <configuration name="TesteReferencias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bytebankHerdado.TesteReferencias" />
       <module name="alura-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bytebankEncapsulado.*" />
+          <option name="PATTERN" value="bytebankHerdado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteReferencias" />
         <item itemvalue="Application.TesteGerente" />
         <item itemvalue="Application.TesteFuncionario2" />
         <item itemvalue="Application.TesteFuncionario" />
         <item itemvalue="Application.TestaContarContas" />
-        <item itemvalue="Application.TesteSacaNeagivo" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +302,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -294,7 +318,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.32899868" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.32769832" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.32769832" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32769832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -375,9 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/variablesAndFlows/LacosEncadeados">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variablesAndFlows/LacosEncadeados" />
     <entry file="file://$PROJECT_DIR$/src/variablesAndFlows/Encadeados.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -516,19 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/TesteFuncionario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -536,9 +545,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Funcionario2.java">
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Testa Gerente.java" />
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/TesteGerente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Funcionario2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
           <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="e#236#237#0" expanded="true" />
@@ -559,27 +576,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Testa Gerente.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/TesteGerente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Gerente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="378">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="e#130#131#0" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#364#365#0" expanded="true" />
             <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/TesteReferencias.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
