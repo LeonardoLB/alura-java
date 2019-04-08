@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633f4bb5-4afe-4863-8c04-70e7c1d9369a" name="Default Changelist" comment="bytebank encapsulated">
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta/ContaPoupanca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta/TesteContas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bytebankHerdadoConta/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta/ContaPoupanca.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,37 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/ContaCorrente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding>
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/ContaPoupanca.java">
+        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/TesteContas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-              <folding>
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/Conta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="63">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -109,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/bytebankHerdadoConta/Conta.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdadoConta/ContaCorrente.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdadoConta/ContaPoupanca.java" />
+        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta/TesteContas.java" />
       </list>
     </option>
   </component>
@@ -143,6 +118,12 @@
               <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="alura-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bytebankHerdado" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alura-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bytebankHerdadoConta" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -153,7 +134,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554734645083" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554735955252" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -183,13 +164,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteReferencias">
-    <configuration name="TestaContarContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bytebankEncapsulado.TestaContarContas" />
+  <component name="RunManager" selected="Application.TesteContas">
+    <configuration name="TesteContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bytebankHerdadoConta.TesteContas" />
       <module name="alura-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bytebankEncapsulado.*" />
+          <option name="PATTERN" value="bytebankHerdadoConta.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteContas" />
         <item itemvalue="Application.TesteReferencias" />
         <item itemvalue="Application.TesteGerente" />
         <item itemvalue="Application.TesteFuncionario2" />
         <item itemvalue="Application.TesteFuncionario" />
-        <item itemvalue="Application.TestaContarContas" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +295,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32769832" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -323,7 +304,7 @@
       <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.32899868" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.32769832" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32769832" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32769832" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32769832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -534,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/TesteFuncionario2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/TesteFuncionario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -625,32 +599,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/Conta.java">
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/ContaCorrente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="105">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/ContaCorrente.java">
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/TesteFuncionario2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/ContaPoupanca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/TesteContas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
