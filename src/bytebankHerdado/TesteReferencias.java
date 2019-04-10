@@ -14,9 +14,9 @@ public class TesteReferencias {
 
         System.out.println(controle.getSoma());
 
-        Funcionario ichigo = new Funcionario();
-        ichigo.setSalario(3000.00);
-        controle.registra(ichigo);
+//        Funcionario ichigo = new Funcionario();
+//        ichigo.setSalario(3000.00);
+//        controle.registra(ichigo);
 
         System.out.println(controle.getSoma());
 
