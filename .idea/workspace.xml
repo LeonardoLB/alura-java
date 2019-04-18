@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633f4bb5-4afe-4863-8c04-70e7c1d9369a" name="Default Changelist" comment="bytebank encapsulated">
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/Administrador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/Autenticavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/ControleBonificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/Designer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/EditorVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/SistemaInterno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/TesteFuncionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/TesteGerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/TesteReferencias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoInterface/TesteSistema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bytebankHerdado/TesteFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bytebankHerdado/TesteFuncionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bytebankHerdado/TesteReferencias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bytebankHerdado/TesteReferencias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bytebankHerdadoConta/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta2/CalculadorDeImposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta2/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta2/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta2/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta2/ContaPoupanca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta2/SeguroDeVida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta2/TesteContas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta2/TesteTributaveis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bytebankHerdadoConta2/Tributavel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +26,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoInterface/Autenticavel.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/Cliente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/Conta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/ContaCorrente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/ContaPoupanca.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/SeguroDeVida.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/TesteContas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/TesteTributaveis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/Tributavel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -51,15 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/variablesAndFlows/Condicao.java" />
-        <option value="$PROJECT_DIR$/src/variablesAndFlows/SwitchCase.java" />
-        <option value="$PROJECT_DIR$/src/variablesAndFlows/while.java" />
-        <option value="$PROJECT_DIR$/src/variablesAndFlows/While.java" />
-        <option value="$PROJECT_DIR$/src/variablesAndFlows/for.java" />
-        <option value="$PROJECT_DIR$/src/variablesAndFlows/For.java" />
-        <option value="$PROJECT_DIR$/src/variablesAndFlows/LacosEncadeados" />
-        <option value="$PROJECT_DIR$/src/variablesAndFlows/Encadeados.java" />
-        <option value="$PROJECT_DIR$/src/variablesAndFlows/LinhaColuna.java" />
         <option value="$PROJECT_DIR$/src/bytebank/Contas.java" />
         <option value="$PROJECT_DIR$/src/bytebank/CriarConta.java" />
         <option value="$PROJECT_DIR$/src/bytebank/TestaMetodo.java" />
@@ -102,6 +148,15 @@
         <option value="$PROJECT_DIR$/src/bytebankHerdadoInterface/TesteGerente.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdadoInterface/TesteReferencias.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdadoInterface/TesteSistema.java" />
+        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta2/CalculadorDeImposto.java" />
+        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta2/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta2/Conta.java" />
+        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta2/ContaCorrente.java" />
+        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta2/ContaPoupanca.java" />
+        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta2/SeguroDeVida.java" />
+        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta2/TesteContas.java" />
+        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta2/TesteTributaveis.java" />
+        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta2/Tributavel.java" />
       </list>
     </option>
   </component>
@@ -136,7 +191,7 @@
               <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="alura-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bytebankHerdadoInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="bytebankHerdadoConta2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,7 +201,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554909650505" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555613597013" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -158,11 +213,11 @@
       <recent name="bytebankComposto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/bytebankHerdadoConta2" />
       <recent name="$PROJECT_DIR$/src/bytebankHerdadoInterface" />
       <recent name="$PROJECT_DIR$/src/bytebankHerdadoConta" />
       <recent name="$PROJECT_DIR$/src/bytebankEncapsulado" />
       <recent name="$PROJECT_DIR$/src/firstProgram" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -315,7 +370,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.32899868" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.32769832" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32769832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -368,57 +423,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="bytebank encapsulated" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/variablesAndFlows/Variables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/variablesAndFlows/Condicao" />
-    <entry file="file://$PROJECT_DIR$/src/variablesAndFlows/SwitchCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/variablesAndFlows/Condicao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/variablesAndFlows/While.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/variablesAndFlows/For.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/variablesAndFlows/LacosEncadeados" />
-    <entry file="file://$PROJECT_DIR$/src/variablesAndFlows/Encadeados.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/variablesAndFlows/LinhaColuna.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebank/CriarConta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -537,13 +541,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Testa Gerente.java" />
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Funcionario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -745,10 +742,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoInterface/Autenticavel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/CalculadorDeImposto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/ContaCorrente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/ContaPoupanca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/SeguroDeVida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/TesteContas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/TesteTributaveis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/Tributavel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
