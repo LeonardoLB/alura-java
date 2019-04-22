@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633f4bb5-4afe-4863-8c04-70e7c1d9369a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaPilha/Fluxo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaPilha2/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaPilha2/Fluxo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaPilha2/FluxoComTratamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,11 +21,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/javaPilha/Fluxo.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javaPilha2/Conta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state>
+              <caret selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javaPilha2/Fluxo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/javaPilha2/FluxoComTratamento.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -36,9 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bytebank/TestaMetodo.java" />
-        <option value="$PROJECT_DIR$/src/bytebank/Conta.java" />
-        <option value="$PROJECT_DIR$/src/bytebankComposto/Cliente.java" />
         <option value="$PROJECT_DIR$/src/bytebankComposto/Banco.java" />
         <option value="$PROJECT_DIR$/src/bytebankComposto/Conta.java" />
         <option value="$PROJECT_DIR$/src/bytebankEncapsulado/Cliente.java" />
@@ -87,6 +104,9 @@
         <option value="$PROJECT_DIR$/src/bytebankHerdadoConta2/Tributavel.java" />
         <option value="$PROJECT_DIR$/src/java-pilha/Fluxo.java" />
         <option value="$PROJECT_DIR$/src/javaPilha/Fluxo.java" />
+        <option value="$PROJECT_DIR$/src/javaPilha2/Conta.java" />
+        <option value="$PROJECT_DIR$/src/javaPilha2/Fluxo.java" />
+        <option value="$PROJECT_DIR$/src/javaPilha2/FluxoComTratamento.java" />
       </list>
     </option>
   </component>
@@ -117,6 +137,12 @@
               <item name="alura-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alura-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javaPilha2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -125,7 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555688973856" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555967857754" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -137,11 +163,11 @@
       <recent name="bytebankComposto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/javaPilha2" />
       <recent name="$PROJECT_DIR$/src/bytebankHerdadoConta2" />
       <recent name="$PROJECT_DIR$/src/bytebankHerdadoInterface" />
       <recent name="$PROJECT_DIR$/src/bytebankHerdadoConta" />
       <recent name="$PROJECT_DIR$/src/bytebankEncapsulado" />
-      <recent name="$PROJECT_DIR$/src/firstProgram" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,7 +332,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,14 +341,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32769832" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32769832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.32899868" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.32769832" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32769832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -379,31 +405,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Tests files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bytebank/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebank/TestaMetodo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankComposto/Banco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankComposto/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -770,8 +771,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javaPilha/Fluxo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="420">
           <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaPilha2/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaPilha2/Fluxo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaPilha2/FluxoComTratamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
