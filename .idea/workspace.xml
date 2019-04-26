@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633f4bb5-4afe-4863-8c04-70e7c1d9369a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaPilha2/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaPilha2/Fluxo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaPilha2/FluxoComError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaPilha2/FluxoComTratamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaPilha2/MinhaExcecao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaPilha2/TestaContaComExcecaoChecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecoes/Conexao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecoes/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecoes/Fluxo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecoes/FluxoComError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecoes/FluxoComTratamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecoes/MinhaExcecao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecoes/TestaContaComExcecaoChecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecoes/TesteConexao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,91 +27,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/errorHandling2/TestaComExecaoChecked.java">
+        <entry file="file://$PROJECT_DIR$/src/Excecoes/Conexao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-column="23" />
+              <caret selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javaPilha2/Conta.java">
+        <entry file="file://$PROJECT_DIR$/src/Excecoes/Conta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javaPilha2/Fluxo.java">
+        <entry file="file://$PROJECT_DIR$/src/Excecoes/Fluxo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javaPilha2/FluxoComError.java">
+        <entry file="file://$PROJECT_DIR$/src/Excecoes/FluxoComError.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javaPilha2/FluxoComTratamento.java">
+        <entry file="file://$PROJECT_DIR$/src/Excecoes/FluxoComTratamento.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javaPilha2/MinhaExcecao.java">
+        <entry file="file://$PROJECT_DIR$/src/Excecoes/MinhaExcecao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Excecoes/TestaContaComExcecaoChecked.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/javaPilha2/TestaContaComExcecaoChecked.java">
+        <entry file="file://$PROJECT_DIR$/src/Excecoes/TesteConexao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/errorHandling2/Conta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/errorHandling2/FluxoComTratamento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/errorHandling2/Fluxo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -122,14 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bytebankHerdado/Funcionario2.java" />
-        <option value="$PROJECT_DIR$/src/bytebankHerdado/TesteFuncionario2.java" />
-        <option value="$PROJECT_DIR$/src/bytebankHerdado/TesteGerente.java" />
-        <option value="$PROJECT_DIR$/src/bytebankHerdado/Gerente.java" />
-        <option value="$PROJECT_DIR$/src/bytebankHerdado/ControleBonificacao.java" />
-        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta/Cliente.java" />
-        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta/ContaPoupanca.java" />
-        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta/TesteContas.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdadoConta/ContaCorrente.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdado/Funcionario.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdado/TesteReferencias.java" />
@@ -173,6 +149,14 @@
         <option value="$PROJECT_DIR$/src/javaPilha2/FluxoComTratamento.java" />
         <option value="$PROJECT_DIR$/src/javaPilha2/MinhaExcecao.java" />
         <option value="$PROJECT_DIR$/src/javaPilha2/TestaContaComExcecaoChecked.java" />
+        <option value="$PROJECT_DIR$/src/Excecoes/Conexao.java" />
+        <option value="$PROJECT_DIR$/src/Excecoes/Conta.java" />
+        <option value="$PROJECT_DIR$/src/Excecoes/Fluxo.java" />
+        <option value="$PROJECT_DIR$/src/Excecoes/FluxoComError.java" />
+        <option value="$PROJECT_DIR$/src/Excecoes/FluxoComTratamento.java" />
+        <option value="$PROJECT_DIR$/src/Excecoes/MinhaExcecao.java" />
+        <option value="$PROJECT_DIR$/src/Excecoes/TestaContaComExcecaoChecked.java" />
+        <option value="$PROJECT_DIR$/src/Excecoes/TesteConexao.java" />
       </list>
     </option>
   </component>
@@ -207,7 +191,7 @@
               <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="alura-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javaPilha2" type="462c0819:PsiDirectoryNode" />
+              <item name="Excecoes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,7 +201,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556217148816" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556296825108" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -232,11 +216,11 @@
       <recent name="bytebankComposto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Excecoes" />
       <recent name="$PROJECT_DIR$/src/javaPilha2" />
       <recent name="$PROJECT_DIR$/src/bytebankHerdadoConta2" />
       <recent name="$PROJECT_DIR$/src/bytebankHerdadoInterface" />
       <recent name="$PROJECT_DIR$/src/bytebankHerdadoConta" />
-      <recent name="$PROJECT_DIR$/src/bytebankEncapsulado" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -474,89 +458,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Tests files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/TesteReferencias.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/TesteGerente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/TesteFuncionario2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/TesteFuncionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Funcionario2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/ControleBonificacao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdado/Gerente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/Conta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -861,6 +762,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Excecoes/Conexao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Excecoes/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Excecoes/Fluxo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Excecoes/FluxoComError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Excecoes/FluxoComTratamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Excecoes/MinhaExcecao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Excecoes/TestaContaComExcecaoChecked.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Excecoes/TesteConexao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
