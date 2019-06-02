@@ -1,4 +1,7 @@
-package bytebankHerdadoConta2;
+package bytebankHerdadoConta2.teste;
+
+import bytebankHerdadoConta2.modelo.ContaCorrente;
+import bytebankHerdadoConta2.modelo.ContaPoupanca;
 
 public class TesteContas {
 
@@ -12,6 +15,8 @@ public class TesteContas {
 		
 		cc.transfere(10.0, cp);
 		
+		System.out.println("CC: " + cc.getSaldo());
+		System.out.println("CC: " + cc.saca(10));
 		System.out.println("CC: " + cc.getSaldo());
 		System.out.println("CP: " + cp.getSaldo());
 

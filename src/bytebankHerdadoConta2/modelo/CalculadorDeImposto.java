@@ -1,4 +1,4 @@
-package bytebankHerdadoConta2;
+package bytebankHerdadoConta2.modelo;
 
 public class CalculadorDeImposto {
 	
