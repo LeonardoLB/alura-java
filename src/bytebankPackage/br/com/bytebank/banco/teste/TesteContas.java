@@ -5,6 +5,12 @@ import bytebankPackage.br.com.bytebank.banco.modelo.ContaCorrente;
 import bytebankPackage.br.com.bytebank.banco.modelo.ContaPoupanca;
 import bytebankPackage.br.com.bytebank.banco.modelo.SaldoInsuficienteException;
 
+/**
+ *
+ * COMENTARIO DE DOCUMENTAÇÃO
+ *
+ * */
+
 public class TesteContas {
 
 	public static void main(String[] args) throws SaldoInsuficienteException{
