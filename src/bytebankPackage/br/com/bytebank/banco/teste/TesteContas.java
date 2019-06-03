@@ -6,9 +6,10 @@ import bytebankPackage.br.com.bytebank.banco.modelo.ContaPoupanca;
 import bytebankPackage.br.com.bytebank.banco.modelo.SaldoInsuficienteException;
 
 /**
- *
  * COMENTARIO DE DOCUMENTAÇÃO
  *
+ * @author leonardo L B
+ * @version 0.1
  * */
 
 public class TesteContas {
