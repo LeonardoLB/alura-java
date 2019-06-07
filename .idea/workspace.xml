@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633f4bb5-4afe-4863-8c04-70e7c1d9369a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bytebankBiblioteca/libs/bytebank-1.0-executavel.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/alura-java/bytebankPackage/br/com/bytebank/banco/especial/ContaEspecial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/alura-java/bytebankPackage/br/com/bytebank/banco/modelo/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/alura-java/bytebankPackage/br/com/bytebank/banco/teste/TesteContas.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,38 +22,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/especial/ContaEspecial.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bytebankBiblioteca/src/br/com/alura/bytebank/TesteBiblioteca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/teste/TesteContas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="84">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -69,8 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bytebankHerdadoInterface/ControleBonificacao.java" />
-        <option value="$PROJECT_DIR$/src/bytebankHerdadoInterface/Designer.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdadoInterface/EditorVideo.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdadoInterface/Funcionario.java" />
         <option value="$PROJECT_DIR$/src/bytebankHerdadoInterface/Gerente.java" />
@@ -120,6 +98,8 @@
         <option value="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/especial/ContaEspecial.java" />
         <option value="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/teste/TesteContas.java" />
         <option value="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java" />
+        <option value="$PROJECT_DIR$/src/bytebank-biblioteca/src/br/com/alura/bytebank/TesteBiblioteca.java" />
+        <option value="$PROJECT_DIR$/src/bytebankBiblioteca/src/br/com/alura/bytebank/TesteBiblioteca.java" />
       </list>
     </option>
   </component>
@@ -153,6 +133,26 @@
               <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="alura-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bytebankBiblioteca" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alura-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bytebankBiblioteca" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alura-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bytebankBiblioteca" type="462c0819:PsiDirectoryNode" />
+              <item name="bytebank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alura-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="banco" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -160,7 +160,7 @@
               <item name="alura-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="banco" type="462c0819:PsiDirectoryNode" />
-              <item name="teste" type="462c0819:PsiDirectoryNode" />
+              <item name="modelo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -171,26 +171,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559864366980" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559943703947" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/errorHandling" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco" />
+      <recent name="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank" />
+      <recent name="$PROJECT_DIR$/src/bytebankPackage" />
+      <recent name="$PROJECT_DIR$/src/Excecoes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="bytebankHerdado" />
       <recent name="bytebankComposto" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank" />
-      <recent name="$PROJECT_DIR$/src/bytebankPackage" />
-      <recent name="$PROJECT_DIR$/src/Excecoes" />
-      <recent name="$PROJECT_DIR$/src/javaPilha2" />
-      <recent name="$PROJECT_DIR$/src/bytebankHerdadoConta2" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/errorHandling" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -205,29 +205,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteContas (2)">
-    <configuration name="FluxoComTratamento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="errorHandling.FluxoComTratamento" />
+  <component name="RunManager" selected="Application.TesteBiblioteca">
+    <configuration name="TesteBiblioteca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TesteBiblioteca" />
       <module name="alura-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="errorHandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteContas (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bytebankHerdadoConta2.teste.TesteContas" />
-      <module name="alura-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bytebankHerdadoConta2.teste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -271,13 +252,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bytebank-1.0-executavel.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/bytebankBiblioteca/libs/bytebank-1.0-executavel.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteBiblioteca" />
+        <item itemvalue="JAR Application.bytebank-1.0-executavel.jar" />
         <item itemvalue="Application.TesteContas (2)" />
         <item itemvalue="Application.TesteTributaveis" />
         <item itemvalue="Application.TesteSaca" />
-        <item itemvalue="Application.TesteContas (1)" />
-        <item itemvalue="Application.FluxoComTratamento" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +340,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28540772" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28540772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -364,14 +349,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32769832" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.32899868" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.32769832" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.32769832" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32769832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -428,20 +413,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Tests files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoInterface/Designer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoInterface/EditorVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoInterface/Funcionario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -779,6 +750,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebank/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/teste/TesteContas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -789,10 +774,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java">
+    <entry file="file://$PROJECT_DIR$/src/bytebankBiblioteca/src/br/com/alura/bytebank/TesteBiblioteca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="84">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
