@@ -1,7 +1,5 @@
 package bytebankPackage.br.com.bytebank.banco.modelo;
 
-import javax.net.ssl.SSLContext;
-
 public class GuardadorContas {
 
     private Conta[] referencias;
