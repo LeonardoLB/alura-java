@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633f4bb5-4afe-4863-8c04-70e7c1d9369a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/util/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/TesteArrayListEquals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/alura-java/bytebankEncapsulado/TesteString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-java/bytebankEncapsulado/TesteString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/alura-java/util/Teste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bytebankEncapsulado/TesteString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bytebankEncapsulado/TesteString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/TesteArrayList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +25,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/util/Teste.java">
+        <entry file="file://$PROJECT_DIR$/src/util/TesteArrayListEquals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+            <state relative-caret-position="354">
+              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
+              <folding>
+                <element signature="e#2104#2105#0" expanded="true" />
+                <element signature="e#2184#2185#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bytebankHerdadoConta2/Tributavel.java" />
-        <option value="$PROJECT_DIR$/src/java-pilha/Fluxo.java" />
         <option value="$PROJECT_DIR$/src/javaPilha/Fluxo.java" />
         <option value="$PROJECT_DIR$/src/errorHandling/FluxoComTratamento.java" />
         <option value="$PROJECT_DIR$/src/errorHandling/Conta.java" />
@@ -84,7 +100,6 @@
         <option value="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/ContaEspecial.java" />
         <option value="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/especial/ContaEspecial.java" />
         <option value="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/teste/TesteContas.java" />
-        <option value="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java" />
         <option value="$PROJECT_DIR$/src/bytebank-biblioteca/src/br/com/alura/bytebank/TesteBiblioteca.java" />
         <option value="$PROJECT_DIR$/src/bytebankBiblioteca/src/br/com/alura/bytebank/TesteBiblioteca.java" />
         <option value="$PROJECT_DIR$/src/bytebankEncapsulado/TesteString.java" />
@@ -103,6 +118,9 @@
         <option value="$PROJECT_DIR$/src/Arrays/TesteGuardaReferencia.java" />
         <option value="$PROJECT_DIR$/src/Arrays/GuardadorReferencias.java" />
         <option value="$PROJECT_DIR$/src/util/Teste.java" />
+        <option value="$PROJECT_DIR$/src/util/TesteArrayList.java" />
+        <option value="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java" />
+        <option value="$PROJECT_DIR$/src/util/TesteArrayListEquals.java" />
       </list>
     </option>
   </component>
@@ -120,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,6 +161,19 @@
               <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="alura-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="banco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alura-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="banco" type="462c0819:PsiDirectoryNode" />
+              <item name="modelo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alura-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -149,11 +181,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560516448261" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560531740877" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -188,9 +219,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Teste">
-    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.Teste" />
+  <component name="RunManager" selected="Application.TesteArrayListEquals">
+    <configuration name="TesteArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.TesteArrayList" />
+      <module name="alura-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteArrayListEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.TesteArrayListEquals" />
       <module name="alura-java" />
       <extension name="coverage">
         <pattern>
@@ -204,19 +248,6 @@
     </configuration>
     <configuration name="TesteArrayObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.TesteArrayObject" />
-      <module name="alura-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteArrayReferencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.TesteArrayReferencia" />
       <module name="alura-java" />
       <extension name="coverage">
         <pattern>
@@ -256,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Teste" />
+        <item itemvalue="Application.TesteArrayListEquals" />
+        <item itemvalue="Application.TesteArrayList" />
         <item itemvalue="Application.TesteGuardaReferencia" />
         <item itemvalue="Application.TesteGuardaConta" />
         <item itemvalue="Application.TesteArrayObject" />
-        <item itemvalue="Application.TesteArrayReferencia" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +369,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28540772" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -346,9 +377,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899868" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32769832" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39921975" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -411,13 +442,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Tests files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/javaPilha2/FluxoComError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/javaPilha2/Conta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -666,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta/Conta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
@@ -694,13 +711,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/Argumentos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/Argumentos.java" />
     <entry file="file://$PROJECT_DIR$/src/Arrays/TesteArrayReferencia.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -777,10 +788,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Teste.java">
+    <entry file="file://$PROJECT_DIR$/src/util/TesteArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        <state relative-caret-position="174">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
+          <folding>
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/TesteArrayListEquals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

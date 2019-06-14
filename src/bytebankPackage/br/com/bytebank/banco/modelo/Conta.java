@@ -73,4 +73,30 @@ public abstract class Conta {
         return Conta.total;
     }
 
+    public boolean ehIgual(Conta conta) {
+        if (this.agencia == conta.agencia && this.numero == conta.numero) {
+            System.out.println("Contas iguais");
+            return true;
+        }
+        System.out.println("Contas não iguais");
+        return false;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+
+        Conta conta = (Conta) obj;
+
+        if (this.agencia == conta.agencia && this.numero == conta.numero) {
+            System.out.println("Contas iguais");
+            return true;
+        }
+        System.out.println("Contas não iguais");
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        return "Conta { agencia=" + agencia + ", numero=" + numero + '}';
+    }
 }

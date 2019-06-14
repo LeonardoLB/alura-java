@@ -17,7 +17,7 @@ public class TesteString {
         nome.toLowerCase(); // letra minuscula
         nome.toUpperCase(); //  letra maiuscula
 
-        String frase = "  Frase de Teste";
+        String frase = "  Frase de TesteArrayList";
         String frase2 = frase.trim(); // remove espaco no inicio e final
 
         String emptyFrase = " ";
