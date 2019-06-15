@@ -1,6 +1,8 @@
 package bytebankPackage.br.com.bytebank.banco.modelo;
 
-public abstract class Conta {
+import java.util.SortedSet;
+
+public abstract class Conta extends Object implements Comparable<Conta> {
 
     protected double saldo;
     private int agencia;
@@ -98,5 +100,10 @@ public abstract class Conta {
     @Override
     public String toString() {
         return "Conta { agencia=" + agencia + ", numero=" + numero + '}';
+    }
+
+    @Override
+    public int compareTo(Conta outraConta) {
+        return Double.compare(this.saldo, outraConta.saldo);
     }
 }
