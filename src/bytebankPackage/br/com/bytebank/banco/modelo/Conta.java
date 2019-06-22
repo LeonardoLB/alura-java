@@ -1,5 +1,6 @@
 package bytebankPackage.br.com.bytebank.banco.modelo;
 
+import bytebankPackage.br.com.bytebank.banco.modelo.SaldoInsuficienteException;
 import java.util.SortedSet;
 
 public abstract class Conta extends Object implements Comparable<Conta> {

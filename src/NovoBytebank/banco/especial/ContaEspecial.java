@@ -1,6 +1,6 @@
 package NovoBytebank.banco.especial;
 
-import br.com.bytebank.banco.modelo.Conta;
+import bytebankPackage.br.com.bytebank.banco.modelo.Conta;
 
 public class ContaEspecial extends Conta {
 
