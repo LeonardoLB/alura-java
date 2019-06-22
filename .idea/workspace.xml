@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633f4bb5-4afe-4863-8c04-70e7c1d9369a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteEscrita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteCopiarArquivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-java/javaIO/src/br/com/alura/java/io/teste/TesteLeitura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-java/javaIO/src/br/com/alura/java/io/teste/TesteLeitura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteLeitura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteLeitura.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteEscrita.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+            <state relative-caret-position="225">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteCopiarArquivo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -64,8 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/javaPilha2/Fluxo.java" />
-        <option value="$PROJECT_DIR$/src/javaPilha2/FluxoComError.java" />
         <option value="$PROJECT_DIR$/src/javaPilha2/FluxoComTratamento.java" />
         <option value="$PROJECT_DIR$/src/javaPilha2/MinhaExcecao.java" />
         <option value="$PROJECT_DIR$/src/javaPilha2/TestaContaComExcecaoChecked.java" />
@@ -115,6 +119,8 @@
         <option value="$PROJECT_DIR$/Text.txt" />
         <option value="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteLeitura.java" />
         <option value="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteEscrita.java" />
+        <option value="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteCopiaCola.java" />
+        <option value="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteCopiarArquivo.java" />
       </list>
     </option>
   </component>
@@ -197,13 +203,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteEscrita">
-    <configuration name="TesteArrayListEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.TesteArrayListEquals" />
+  <component name="RunManager" selected="Application.TesteCopiarArquivo">
+    <configuration name="TesteCopiarArquivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaIO.src.br.com.alura.java.io.teste.TesteCopiarArquivo" />
       <module name="alura-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="javaIO.src.br.com.alura.java.io.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteCopiarArquivo" />
         <item itemvalue="Application.TesteEscrita" />
         <item itemvalue="Application.TesteLeitura" />
         <item itemvalue="Application.TesteSaca" />
         <item itemvalue="Application.TesteOrdenandoLista" />
-        <item itemvalue="Application.TesteArrayListEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -420,27 +426,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Tests files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/modelo/SeguroDeVida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/modelo/Tributavel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/modelo/ContaCorrente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankHerdadoConta2/teste/TesteContas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -780,13 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteLeitura.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -794,10 +772,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteCopiaCola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Text2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteEscrita.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        <state relative-caret-position="225">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteCopiarArquivo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
         </state>
       </provider>
     </entry>
