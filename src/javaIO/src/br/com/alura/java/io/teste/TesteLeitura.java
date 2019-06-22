@@ -18,7 +18,13 @@ public static void main(String[]args) throws FileNotFoundException, IOException 
 
         String linha = br.readLine();
 
-        System.out.println(linha);
+//        linha = br.readLine();
+//        System.out.println(linha);
+
+        while (linha != null) {
+                System.out.println(linha);
+                linha = br.readLine();
+        }
 
         br.close();
 
