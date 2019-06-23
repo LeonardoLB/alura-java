@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633f4bb5-4afe-4863-8c04-70e7c1d9369a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TestePrintStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteCopiarArquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteCopiarArquivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/alura-java/javaIO/src/br/com/alura/java/io/teste/TesteFileWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-java/javaIO/src/br/com/alura/java/io/teste/TesteFileWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteFileWriter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,31 +24,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteFileWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TestePrintStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/OutputStreamWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Text4.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -71,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/javaPilha2/MinhaExcecao.java" />
-        <option value="$PROJECT_DIR$/src/javaPilha2/TestaContaComExcecaoChecked.java" />
         <option value="$PROJECT_DIR$/src/Excecoes/Conexao.java" />
         <option value="$PROJECT_DIR$/src/Excecoes/Conta.java" />
         <option value="$PROJECT_DIR$/src/Excecoes/Fluxo.java" />
@@ -122,6 +120,8 @@
         <option value="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteCopiaCola.java" />
         <option value="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteCopiarArquivo.java" />
         <option value="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteFileWriter.java" />
+        <option value="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TestePrintWriter.java" />
+        <option value="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TestePrintStream.java" />
       </list>
     </option>
   </component>
@@ -204,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteFileWriter">
+  <component name="RunManager" selected="Application.TestePrintStream">
     <configuration name="TesteCopiarArquivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaIO.src.br.com.alura.java.io.teste.TesteCopiarArquivo" />
       <module name="alura-java" />
@@ -257,12 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteSaca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bytebankPackage.br.com.bytebank.banco.teste.TesteSaca" />
+    <configuration name="TestePrintStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaIO.src.br.com.alura.java.io.teste.TestePrintStream" />
       <module name="alura-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bytebankPackage.br.com.bytebank.banco.teste.*" />
+          <option name="PATTERN" value="javaIO.src.br.com.alura.java.io.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestePrintStream" />
         <item itemvalue="Application.TesteFileWriter" />
         <item itemvalue="Application.TesteCopiarArquivo" />
         <item itemvalue="Application.TesteEscrita" />
         <item itemvalue="Application.TesteLeitura" />
-        <item itemvalue="Application.TesteSaca" />
       </list>
     </recent_temporary>
   </component>
@@ -427,23 +427,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Tests files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bytebank/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/teste/TesteContas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankBiblioteca/src/br/com/alura/bytebank/TesteBiblioteca.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -757,17 +740,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -778,13 +761,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteFileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Text3.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteFileWriter.java">
+    <entry file="file://$PROJECT_DIR$/Text4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TestePrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="195">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

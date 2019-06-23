@@ -19,7 +19,7 @@ public class TesteFileWriter {
 
         fw.write("Esse é uma linha adicionada atraves do metodo Writer");
         fw.write("\n"); // quebra de linha
-        fw.write("\n"); // quebra de linha
+        fw.write(System.lineSeparator()); // quebra de linha
         fw.write("Nova linha feita atravez da classe FileWriter");
 
         fw.close();
