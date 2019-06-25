@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633f4bb5-4afe-4863-8c04-70e7c1d9369a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gerenciadorDeCursos/br/com/TestandoListas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gerenciadorDeCursos/br/com/TesteSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Cliente.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,22 +23,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TestePrintStream.java">
+        <entry file="file://$PROJECT_DIR$/src/gerenciadorDeCursos/br/com/TestandoListas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="265">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gerenciadorDeCursos/br/com/TestandoListas.java">
+        <entry file="file://$PROJECT_DIR$/src/gerenciadorDeCursos/br/com/TesteSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="105">
+              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Excecoes/MinhaExcecao.java" />
         <option value="$PROJECT_DIR$/src/Excecoes/TestaContaComExcecaoChecked.java" />
         <option value="$PROJECT_DIR$/src/Excecoes/TesteConexao.java" />
         <option value="$PROJECT_DIR$/src/Excecoes/FluxoComError.java" />
@@ -116,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteSerielizacao.java" />
         <option value="$PROJECT_DIR$/src/bytebankPackage/br/com/bytebank/banco/modelo/Cliente.java" />
         <option value="$PROJECT_DIR$/src/gerenciadorDeCursos/br/com/TestandoListas.java" />
+        <option value="$PROJECT_DIR$/src/gerenciadorDeCursos/br/com/TesteSet.java" />
       </list>
     </option>
   </component>
@@ -146,6 +145,12 @@
               <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="alura-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alura-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alura-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestandoListas">
+  <component name="RunManager" selected="Application.TesteSet">
     <configuration name="TestandoListas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gerenciadorDeCursos.br.com.TestandoListas" />
       <module name="alura-java" />
@@ -232,19 +237,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestePrintStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaIO.src.br.com.alura.java.io.teste.TestePrintStream" />
-      <module name="alura-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaIO.src.br.com.alura.java.io.teste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TesteSerielizacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaIO.src.br.com.alura.java.io.teste.TesteSerielizacao" />
       <module name="alura-java" />
@@ -258,13 +250,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gerenciadorDeCursos.br.com.TesteSet" />
+      <module name="alura-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gerenciadorDeCursos.br.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteSet" />
         <item itemvalue="Application.TestandoListas" />
         <item itemvalue="Application.TesteSerielizacao" />
         <item itemvalue="Application.TesteLeituraCSV" />
         <item itemvalue="Application.TesteLeitura" />
-        <item itemvalue="Application.TestePrintStream" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +345,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33117932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -351,7 +355,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899868" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3270073" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3270073" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39921975" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -385,13 +389,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Tests files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Arrays/TesteArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bytebankEncapsulado/TesteString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
@@ -623,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteCopiarArquivo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -717,16 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteLeituraCSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TestePrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -737,10 +717,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteCopiarArquivo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaIO/src/br/com/alura/java/io/teste/TesteLeituraCSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/gerenciadorDeCursos/br/com/TestandoListas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="265">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gerenciadorDeCursos/br/com/TesteSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
